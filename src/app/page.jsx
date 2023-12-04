@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className=" h-screen flex justify-center items-center">
       <Spline
-        scene="https://prod.spline.design/lLC-PrpZeSlckEM4/scene.splinecode"
+        scene="https://prod.spline.design/gAxm3pT7UimwtwzH/scene.splinecode"
         className="absolute w-full h-full top-0 left-0 pointer-events-none"
       />
 
