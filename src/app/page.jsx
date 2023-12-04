@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className="z-10 text-center">
         <h1 className="text-8xl font-bold">Etheray</h1>
-        <p className="text-xl mt-4">
+        <p className="text-xl mt-4 max-w-2xl">
           Bringing a Personal Touch to Your Business - We are Here to Make Your
           Digital World Easier and More Inspiring.
         </p>

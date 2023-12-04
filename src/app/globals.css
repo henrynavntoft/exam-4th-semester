@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Supreme", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "ClashDisplay", sans-serif;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/ClashDisplay-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/ClashDisplay-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: url("/Supreme-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: url("/Supreme-MediumItalic.otf") format("opentype");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: url("/Supreme-Regular.otf") format("opentype");
+  font-weight: normal;
+}
