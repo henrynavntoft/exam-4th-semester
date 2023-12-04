@@ -1,6 +1,6 @@
 "use client";
 
-export default function Header() {
+export default function Footer() {
   return (
     <>
       <div className="m-4">Footer </div>

@@ -15,6 +15,12 @@ h6 {
   font-family: "ClashDisplay", sans-serif;
 }
 
+@layer base {
+  .font-outline-1 {
+    -webkit-text-stroke: 0.000001em #3a3630;
+  }
+}
+
 @font-face {
   font-family: "ClashDisplay";
   src: url("/ClashDisplay-Bold.otf") format("opentype");
