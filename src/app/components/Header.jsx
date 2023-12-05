@@ -21,7 +21,9 @@ export default function Header() {
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent justify="start">
-        <h5 className="text-2xl">Etheray</h5>
+        <Link href="/" color="foreground">
+          <h5 className="text-2xl">Etheray</h5>
+        </Link>
       </NavbarContent>
       <NavbarContent justify="end">
         <ThemeSwitcher />

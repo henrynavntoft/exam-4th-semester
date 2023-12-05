@@ -9,11 +9,8 @@ import Spline from "@splinetool/react-spline";
 export default function Home() {
   return (
     <>
-      <section className=" h-screen flex justify-center items-center">
-        {/* <Spline
-          scene="https://prod.spline.design/gAxm3pT7UimwtwzH/scene.splinecode"
-          className="absolute w-full h-full top-0 left-0 pointer-events-none"
-        /> */}
+      <section className="relative h-screen flex justify-center items-center">
+        <HeroScene />
         <div className="z-10 text-center">
           <h1 className="text-8xl">Etheray</h1>
           <p className="text-xl mt-4 max-w-2xl">
