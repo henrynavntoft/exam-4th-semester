@@ -19,9 +19,9 @@ export default function Home() {
   return (
     <>
       <section className="relative h-screen flex justify-center items-center">
-        {/* <HeroScene /> */}
+        <HeroScene />
         <div className="z-10 text-center">
-          <h1 className="text-8xl">Etheray</h1>
+          <h1 className="text-9xl font-bold">Etheray</h1>
           <p className="text-xl mt-4 max-w-2xl">
             Bringing a Personal Touch to Your Business - We are Here to Make
             Your Digital World Easier and More Inspiring.
@@ -37,17 +37,17 @@ export default function Home() {
 
       <section
         ref={scrollTargetRef}
-        className=" h-screen flex flex-row  justify-center items-center"
+        className=" h-screen flex flex-col sm:flex-row justify-center items-center gap-32"
       >
-        <div>
-          <h3 className="text-4xl max-w-xl">
+        <div className="max-w-sm">
+          <h3 className="text-4xl">
             Future of experience <br /> That Resonate Beyond the Screen
           </h3>
         </div>
 
-        <div>
+        <div className="max-w-sm">
           <p className="text-2xl font-bold">How we do it</p>
-          <p className="text-x max-w-sm">
+          <p className="text-x">
             In the heart of Copenhagen, we merge human ingenuity with AIs
             precision, transforming bold ideas into digital realities. Our
             expertise is not just in creating; it is in empowering you with the
@@ -135,7 +135,7 @@ export default function Home() {
             <div className="flex-1">
               <Image
                 alt=""
-                src="https://images.unsplash.com/photo-1540331547168-8b63109225b7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+                src="https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width={1000}
                 height={1000}
                 objectFit="cover"
@@ -162,7 +162,7 @@ export default function Home() {
             <div className="flex-1">
               <Image
                 alt=""
-                src="https://images.unsplash.com/photo-1540331547168-8b63109225b7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+                src="https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 width={1000}
                 height={1000}
                 objectFit="cover"
