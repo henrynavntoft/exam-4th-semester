@@ -25,10 +25,11 @@ function Scene({ ...props }) {
 
   useFrame(() => {
     if (ref.current) {
-      ref.current.rotation.x += 0.01;
+      ref.current.rotation.x += 0;
       ref.current.rotation.y += 0.01;
     }
   });
+
   return (
     <>
       <color />
