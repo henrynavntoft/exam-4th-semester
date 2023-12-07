@@ -2,7 +2,6 @@ import "./globals.css";
 import { Providers } from "./providers";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import UnderFooter from "./components/UnderFooter";
 
 export const metadata = {
   title: "4th Semester Exam",
@@ -17,7 +16,6 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
-          <UnderFooter />
         </body>
       </Providers>
     </html>

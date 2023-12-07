@@ -7,7 +7,7 @@ import { OrthographicCamera } from "@react-three/drei";
 
 export default function HeroScene() {
   return (
-    <div className="w-screen h-screen absolute top-0 left-0">
+    <div className="w-screen h-screen absolute">
       <Canvas>
         <Scene />
         <OrbitControls enableZoom={false} />

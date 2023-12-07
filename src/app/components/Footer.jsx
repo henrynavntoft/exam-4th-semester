@@ -1,16 +1,91 @@
 "use client";
 import { Input, RadioGroup, Radio, Textarea, Button } from "@nextui-org/react";
+import { Image } from "@nextui-org/react";
+import UnderFooter from "./UnderFooter";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <>
-      <section className="flex flex-col sm:flex-row justify-center mb-32 mx-10 gap-10">
+      <section className="flex flex-col sm:flex-row justify- align-top m-10 gap-10 ">
         <div className="flex-1">
-          <h2 className="text-7xl font-bold">
-            Develop your skills with Etheray
+          <h2 className="text-6xl  font-bold mb-4">
+            Develop your <br /> skills with <br /> Etheray
           </h2>
+          <div className="flex gap-8 ">
+            <div className="space-y-2">
+              <p className="text-2xl underline">Structure</p>
+              <ol className="space-y-2">
+                <Link href={"/"}>
+                  <li>Home</li>
+                </Link>
+                <Link href={"/services"}>
+                  <li>Services</li>
+                </Link>
+                <Link href={"/portfolio"}>
+                  <li>Portfolio</li>
+                </Link>
+                <Link href={"/about"}>
+                  <li>About</li>
+                </Link>
+              </ol>
+            </div>
+            <div className="flex flex-col justify-between ">
+              <p className="text-2xl underline">Check out our social</p>
+              <div className="flex gap-6 text-center items-center">
+                <Image
+                  className="dark:invert"
+                  radius="none"
+                  src="insta.svg"
+                  width={30}
+                  height={30}
+                  alt=""
+                />
+                <Image
+                  className="dark:invert"
+                  radius="none"
+                  src="linkedin.svg"
+                  width={30}
+                  height={30}
+                  alt=""
+                />
+                <Image
+                  className="dark:invert"
+                  radius="none"
+                  src="web.svg"
+                  width={30}
+                  height={30}
+                  alt=""
+                />
+              </div>
+              <div className="flex gap-6">
+                <Link href={"/"} className="flex flex-col">
+                  <span>Carrer</span>
+                  <Image
+                    src="thing.svg"
+                    width={30}
+                    height={30}
+                    alt=""
+                    className="dark:invert"
+                    radius="none"
+                  />
+                </Link>
+                <Link href={"/"} className="flex flex-col">
+                  <span>Teams</span>
+                  <Image
+                    src="thing.svg"
+                    width={30}
+                    height={30}
+                    alt=""
+                    className="dark:invert"
+                    radius="none"
+                  />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
-        <form className="flex flex-col flex-1 gap-4" action="">
+        <form className="flex flex-col flex-1 gap-6" action="">
           <div className="flex flex-col sm:flex-row gap-4">
             <Input
               type="name"
@@ -48,6 +123,7 @@ export default function Footer() {
           </div>
         </form>
       </section>
+      <UnderFooter />
     </>
   );
 }

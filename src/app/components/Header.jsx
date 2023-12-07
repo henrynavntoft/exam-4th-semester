@@ -16,7 +16,12 @@ import {
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ["Profile", "Dashboard", "Activity", "Analytics", "System"];
+  const menuItems = [
+    { name: "Home", path: "/" },
+    { name: "Services", path: "/services" },
+    { name: "Portfolio", path: "/portfolio" },
+    { name: "About", path: "/about" },
+  ];
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen}>
@@ -33,15 +38,20 @@ export default function Header() {
       </NavbarContent>
 
       <NavbarMenu>
+        <NavbarMenuItem>
+          <div className="w-full flex justify-center text-4xl pt-4">
+            <h2 className="text-5xl font-bold">Structure</h2>
+          </div>
+        </NavbarMenuItem>
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${item.name}-${index}`}>
             <Link
               color="foreground"
-              className="w-full flex justify-center text-4xl pt-4 "
-              href="#"
+              className="w-full flex justify-center text-4xl pt-4"
+              href={item.path}
               size="lg"
             >
-              {item}
+              {item.name}
             </Link>
           </NavbarMenuItem>
         ))}
