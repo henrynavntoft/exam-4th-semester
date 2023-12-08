@@ -14,6 +14,10 @@ module.exports = {
       fontSize: {
         super: "10rem",
       },
+      fontFamily: {
+        clash: ['"ClashDisplay"', "sans-serif"],
+        supreme: ['"Supreme"', "sans-serif"],
+      },
     },
   },
   darkMode: "class",
@@ -28,15 +32,15 @@ module.exports = {
         light: {
           colors: {
             background: "#FEF7F6",
-            foreground: "#3A3630",
-            primary: "#ff79b5",
+            foreground: "#232220",
+            primary: "#F4A5B7",
           },
         },
         dark: {
           colors: {
-            background: "#3A3630",
+            background: "#232220",
             foreground: "#FEF7F6",
-            primary: "#ff79b5",
+            primary: "#F4A5B7",
           },
         },
       },

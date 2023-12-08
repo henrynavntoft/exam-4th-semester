@@ -6,7 +6,7 @@ export default function PortfolioSection() {
     <>
       <section className="flex flex-col md:flex-row my-10 ">
         <div className="flex-1 flex flex-col p-8">
-          <h2 className="text-6xl text-primary mb-4">Portfolio</h2>
+          <h4 className=" mb-4">Portfolio</h4>
           <p className="max-w-xl mb-4">
             In the heart of Copenhagen, we merge human ingenuity with AIs
             precision, transforming bold ideas into digital realities. Our

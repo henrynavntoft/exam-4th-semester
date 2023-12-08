@@ -17,15 +17,15 @@ export default function HeroSection() {
       <section className="relative h-screen flex justify-center items-center">
         {/* <HeroScene /> */}
         <div className="z-10 text-center">
-          <h1 className="text-6xl sm:text-8xl font-bold">Etheray</h1>
-          <p className="text-xl mt-4 max-w-2xl mx-4">
+          <h1 className="logo">Etheray</h1>
+          <p className=" flex justify-center mt-4 mx-4">
             Bringing a Personal Touch to Your Business - We are Here to Make
             Your Digital World Easier and More Inspiring.
           </p>
         </div>
         <p
           onClick={scrollToTarget}
-          className="absolute bottom-0 mb-32 text-xl cursor-pointer"
+          className="absolute bottom-0 mb-32 cursor-pointer"
         >
           Scroll
         </p>
@@ -33,17 +33,17 @@ export default function HeroSection() {
 
       <section
         ref={scrollTargetRef}
-        className=" h-screen flex flex-col sm:flex-row justify-center items-center gap-32"
+        className=" mx-20 h-screen flex  flex-col justify-center items-center gap-10 "
       >
-        <div className="max-w-sm">
-          <h3 className="text-4xl">
-            Future of experience <br /> That Resonate Beyond the Screen
-          </h3>
+        <div className="">
+          <h2 className="">
+            Future of experience That Resonate Beyond the Screen
+          </h2>
         </div>
 
-        <div className="max-w-sm">
-          <p className="text-2xl font-bold">How we do it</p>
-          <p className="text-x">
+        <div className="">
+          <h5 className="">How we do it</h5>
+          <p className="">
             In the heart of Copenhagen, we merge human ingenuity with AIs
             precision, transforming bold ideas into digital realities. Our
             expertise is not just in creating; it is in empowering you with the

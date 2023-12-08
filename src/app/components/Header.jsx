@@ -27,7 +27,7 @@ export default function Header() {
     <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent justify="start">
         <Link href="/" color="foreground">
-          <h5 className="text-2xl">Etheray</h5>
+          <h5 className="">Etheray</h5>
         </Link>
       </NavbarContent>
       <NavbarContent justify="end">
@@ -40,7 +40,7 @@ export default function Header() {
       <NavbarMenu>
         <NavbarMenuItem>
           <div className="w-full flex justify-center text-4xl pt-4">
-            <h2 className="text-5xl font-bold">Structure</h2>
+            <h3 className="">Structure</h3>
           </div>
         </NavbarMenuItem>
         {menuItems.map((item, index) => (
