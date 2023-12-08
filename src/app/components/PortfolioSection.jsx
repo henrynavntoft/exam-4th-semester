@@ -16,7 +16,7 @@ export default function PortfolioSection() {
             touch.
           </p>
 
-          <Link href={"/portfolio"}>
+          <Link href={"/port"}>
             <Button>See all projects</Button>
           </Link>
         </div>
