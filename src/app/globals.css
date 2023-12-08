@@ -51,8 +51,8 @@
 }
 
 @layer base {
-  .font-outline-1 {
-    -webkit-text-stroke: 0.000001em var(--text-stroke-color);
+  .font-outline {
+    -webkit-text-stroke: 0.01em var(--text-stroke-color);
     color: transparent;
   }
 }
@@ -111,6 +111,7 @@ h6 {
   font-family: "ClashDisplay", sans-serif;
   font-weight: bold;
   font-size: 160px;
+  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -169,6 +170,7 @@ h6 {
     font-family: "ClashDisplay", sans-serif;
     font-weight: bold;
     font-size: 90px;
+    line-height: 1;
     text-transform: uppercase;
   }
 }

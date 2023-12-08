@@ -37,14 +37,14 @@ export default function UnderFooter() {
   return (
     <div className="overflow-hidden">
       <motion.div
-        className="text-8xl font-extrabold whitespace-nowrap"
+        className="footer whitespace-nowrap"
         variants={scrollRightToLeft}
         animate="animate"
       >
         {repeatedText1}
       </motion.div>
       <motion.div
-        className="text-8xl font-extrabold  whitespace-nowrap font-outline-1 text-transparent"
+        className="footer whitespace-nowrap font-outline"
         variants={scrollLeftToRight}
         animate="animate"
       >
