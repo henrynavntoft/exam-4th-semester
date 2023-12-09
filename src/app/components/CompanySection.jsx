@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function CompanySection() {
   return (
     <>
-      <section className="p-10">
+      <section className="">
         <h4 className="text-center mb-8">Company Core</h4>
         <div className="flex flex-col md:flex-row justify-center items-center gap-12">
           <article className="flex flex-col-reverse gap-8 md:flex-row ">

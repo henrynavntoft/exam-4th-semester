@@ -42,7 +42,7 @@ export default function Footer() {
 
   return (
     <>
-      <section className="flex flex-col sm:flex-row justify- align-top m-10 gap-10 ">
+      <footer className="flex flex-col sm:flex-row justify- align-top m-10 gap-10 ">
         <div className="flex-1">
           <h2 className=" mb-4">
             Develop your <br /> skills with <br /> Etheray
@@ -171,7 +171,7 @@ export default function Footer() {
             <Button type="submit">Submit</Button>
           </div>
         </form>
-      </section>
+      </footer>
       <UnderFooter />
     </>
   );

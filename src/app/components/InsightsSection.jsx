@@ -1,15 +1,11 @@
-import { Image, Input } from "@nextui-org/react";
+import { Button, Image, Input } from "@nextui-org/react";
 import Link from "next/link";
 
 export default function InsightsSection() {
   return (
     <>
-      <section className="my-20 mx-20">
-        <h4 className=" text-center">Insights</h4>
-        <div className="text-center">
-          <h3 className="mb-4">Your success matters.</h3>
-          <h5 className="mb-4"> Learn how to generate more time with AI</h5>
-        </div>
+      <section>
+        <h4 className=" text-center mb-8">Insights</h4>
         <div className="flex flex-col md:flex-row gap-10">
           <div className="flex flex-col gap-4 flex-1 justify-center ">
             <h3>Creative workshops</h3>
@@ -23,13 +19,17 @@ export default function InsightsSection() {
               to learn how AI can be a tool for innovation, giving your team the
               edge in a tech-forward world.
             </p>
-            <Input
-              type="email"
-              isRequired
-              variant="bordered"
-              label="Email"
-              placeholder="Enter your email"
-            />
+
+            <form className="flex justify-between items-center gap-4" action="">
+              <Input
+                type="email"
+                isRequired
+                variant="bordered"
+                label="Email"
+                placeholder="Enter your email"
+              />
+              <Button>Submit</Button>
+            </form>
           </div>
 
           <div className="flex flex-1 justify-center items-center">
@@ -42,7 +42,9 @@ export default function InsightsSection() {
           </div>
         </div>
         <div className="my-10">
-          <h3 className="text-center my-4">Online Classes</h3>
+          <h3 className="text-center my-4">
+            Learn how to generate more time with AI
+          </h3>
           <div className="flex flex-col md:flex-row justify-between gap-8">
             <Link
               href={"/"}

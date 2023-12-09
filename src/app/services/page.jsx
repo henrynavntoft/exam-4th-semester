@@ -34,25 +34,22 @@ export default function Services() {
       </section>
 
       <section ref={scrollTargetRef} className="p-10">
-        <article className="flex gap-4 my-10">
-          <div className="flex-1">
-            <div>
-              <p>01</p>
-            </div>
-            <div>
-              <h2>Experience Design</h2>
-              <p>
-                At Etheray, our Experience Design is more than visual appeal it
-                is about creating an intuitive path for users to explore and
-                interact with ease. Imagine an online gallery where art
-                enthusiasts can virtually navigate through exhibitions; we make
-                such engaging journeys possible. By mapping out every click,
-                swipe, and scroll, we ensure that each digital touchpoint is a
-                step toward a delightful user experience. Designing intuitive
-                navigation structures. Crafting user-centric interfaces.
-                Streamlining user interactions for optimal flow.
-              </p>
-            </div>
+        <article className="flex flex-col md:flex-row gap-4 my-10">
+          <div className="flex flex-col gap-2 flex-1">
+            <p>01</p>
+
+            <h2>Experience Design</h2>
+            <p>
+              At Etheray, our Experience Design is more than visual appeal it is
+              about creating an intuitive path for users to explore and interact
+              with ease. Imagine an online gallery where art enthusiasts can
+              virtually navigate through exhibitions; we make such engaging
+              journeys possible. By mapping out every click, swipe, and scroll,
+              we ensure that each digital touchpoint is a step toward a
+              delightful user experience. Designing intuitive navigation
+              structures. Crafting user-centric interfaces. Streamlining user
+              interactions for optimal flow.
+            </p>
           </div>
           <div className="flex-1">
             <Image
@@ -63,25 +60,22 @@ export default function Services() {
             />
           </div>
         </article>
-        <article className="flex gap-4 my-10">
-          <div className="flex-1">
-            <div>
-              <p>02</p>
-            </div>
-            <div>
-              <h2>Web Development</h2>
-              <p>
-                At Etheray, our Experience Design is more than visual appeal it
-                is about creating an intuitive path for users to explore and
-                interact with ease. Imagine an online gallery where art
-                enthusiasts can virtually navigate through exhibitions; we make
-                such engaging journeys possible. By mapping out every click,
-                swipe, and scroll, we ensure that each digital touchpoint is a
-                step toward a delightful user experience. Designing intuitive
-                navigation structures. Crafting user-centric interfaces.
-                Streamlining user interactions for optimal flow.
-              </p>
-            </div>
+        <article className="flex flex-col md:flex-row gap-4 my-10">
+          <div className="flex flex-col gap-2 flex-1">
+            <p>02</p>
+
+            <h2>Web Development</h2>
+            <p>
+              At Etheray, our Experience Design is more than visual appeal it is
+              about creating an intuitive path for users to explore and interact
+              with ease. Imagine an online gallery where art enthusiasts can
+              virtually navigate through exhibitions; we make such engaging
+              journeys possible. By mapping out every click, swipe, and scroll,
+              we ensure that each digital touchpoint is a step toward a
+              delightful user experience. Designing intuitive navigation
+              structures. Crafting user-centric interfaces. Streamlining user
+              interactions for optimal flow.
+            </p>
           </div>
           <div className="flex-1">
             <Image
@@ -92,25 +86,21 @@ export default function Services() {
             />
           </div>
         </article>
-        <article className="flex gap-4 my-10">
-          <div className="flex-1">
-            <div>
-              <p>03</p>
-            </div>
-            <div>
-              <h2>Branding</h2>
-              <p>
-                At Etheray, our Experience Design is more than visual appeal it
-                is about creating an intuitive path for users to explore and
-                interact with ease. Imagine an online gallery where art
-                enthusiasts can virtually navigate through exhibitions; we make
-                such engaging journeys possible. By mapping out every click,
-                swipe, and scroll, we ensure that each digital touchpoint is a
-                step toward a delightful user experience. Designing intuitive
-                navigation structures. Crafting user-centric interfaces.
-                Streamlining user interactions for optimal flow.
-              </p>
-            </div>
+        <article className="flex flex-col md:flex-row gap-4 my-10">
+          <div className="flex flex-col gap-2 flex-1">
+            <p>03</p>
+            <h2>Branding</h2>
+            <p>
+              At Etheray, our Experience Design is more than visual appeal it is
+              about creating an intuitive path for users to explore and interact
+              with ease. Imagine an online gallery where art enthusiasts can
+              virtually navigate through exhibitions; we make such engaging
+              journeys possible. By mapping out every click, swipe, and scroll,
+              we ensure that each digital touchpoint is a step toward a
+              delightful user experience. Designing intuitive navigation
+              structures. Crafting user-centric interfaces. Streamlining user
+              interactions for optimal flow.
+            </p>
           </div>
           <div className="flex-1">
             <Image
@@ -121,25 +111,21 @@ export default function Services() {
             />
           </div>
         </article>
-        <article className="flex gap-4 my-10">
-          <div className="flex-1">
-            <div>
-              <p>04</p>
-            </div>
-            <div>
-              <h2>Consultancy</h2>
-              <p>
-                At Etheray, our Experience Design is more than visual appeal it
-                is about creating an intuitive path for users to explore and
-                interact with ease. Imagine an online gallery where art
-                enthusiasts can virtually navigate through exhibitions; we make
-                such engaging journeys possible. By mapping out every click,
-                swipe, and scroll, we ensure that each digital touchpoint is a
-                step toward a delightful user experience. Designing intuitive
-                navigation structures. Crafting user-centric interfaces.
-                Streamlining user interactions for optimal flow.
-              </p>
-            </div>
+        <article className="flex flex-col md:flex-row gap-4 my-10">
+          <div className="flex flex-col gap-2 flex-1">
+            <p>04</p>
+            <h2>Consultancy</h2>
+            <p>
+              At Etheray, our Experience Design is more than visual appeal it is
+              about creating an intuitive path for users to explore and interact
+              with ease. Imagine an online gallery where art enthusiasts can
+              virtually navigate through exhibitions; we make such engaging
+              journeys possible. By mapping out every click, swipe, and scroll,
+              we ensure that each digital touchpoint is a step toward a
+              delightful user experience. Designing intuitive navigation
+              structures. Crafting user-centric interfaces. Streamlining user
+              interactions for optimal flow.
+            </p>
           </div>
           <div className="flex-1">
             <Image
