@@ -78,6 +78,7 @@ h1 {
 
 h2 {
   font-size: 64px;
+  line-height: 1;
   font-weight: bold;
 }
 
@@ -139,6 +140,7 @@ h6 {
 
   h2 {
     font-size: 40px;
+    line-height: 1;
     font-weight: bold;
   }
 

@@ -44,12 +44,12 @@ export default function Footer() {
     <>
       <section className="flex flex-col sm:flex-row justify- align-top m-10 gap-10 ">
         <div className="flex-1">
-          <h5 className="text-6xl font-bold mb-4">
+          <h2 className=" mb-4">
             Develop your <br /> skills with <br /> Etheray
-          </h5>
+          </h2>
           <div className="flex gap-8 ">
             <div className="space-y-2">
-              <p className=" underline">Structure</p>
+              <h5 className="">Structure</h5>
               <ol className="space-y-2">
                 <Link href={"/"}>
                   <li>Home</li>
@@ -66,7 +66,7 @@ export default function Footer() {
               </ol>
             </div>
             <div className="flex flex-col justify-between ">
-              <p className="underline">Check out our social</p>
+              <h5 className="">Check out our social</h5>
               <div className="flex gap-6 text-center items-center">
                 <Link href={"/"}>
                   <Image
