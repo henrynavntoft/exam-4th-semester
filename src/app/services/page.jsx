@@ -17,7 +17,7 @@ export default function Services() {
   };
   return (
     <>
-      <HeroScene />
+      {/* <HeroScene /> */}
       <section className="relative h-screen flex justify-center items-center">
         <div className="z-10 mx-10 text-center">
           <h4 className="">Explore our services</h4>
@@ -33,7 +33,7 @@ export default function Services() {
         </p>
       </section>
 
-      <section ref={scrollTargetRef} className="mx-10">
+      <section ref={scrollTargetRef} className="p-10">
         <article className="flex gap-4 my-10">
           <div className="flex-1">
             <div>

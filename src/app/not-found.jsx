@@ -8,10 +8,10 @@ export default function Custom404() {
   return (
     <>
       <section className="relative h-screen flex justify-center items-center">
-        <HeroScene />
+        {/* <HeroScene /> */}
         <div className="z-10 text-center">
-          <h1 className="text-8xl font-bold">404</h1>
-          <p className="text-2xl mb-4">Page under construction</p>
+          <h1 className="logo">404</h1>
+          <h3 className=" mb-4">Page under construction</h3>
           <Button>
             <Link href={"/"}>Go back</Link>
           </Button>
