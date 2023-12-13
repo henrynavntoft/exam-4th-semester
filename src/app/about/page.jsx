@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import HeroScene from "../components/HeroScene";
-import { Image, Input } from "@nextui-org/react";
+import { Button, Image, Input } from "@nextui-org/react";
 import CompanySection from "../components/CompanySection";
 
 export default function About() {
@@ -36,7 +36,7 @@ export default function About() {
 
       <section
         ref={scrollTargetRef}
-        className="p-10 text-center h-screen flex flex-col justify-center"
+        className="text-center h-screen flex flex-col justify-center"
       >
         <h4>Our mission</h4>
         <p>
@@ -47,7 +47,7 @@ export default function About() {
         </p>
       </section>
       <CompanySection />
-      <section className="m-10">
+      <section className="">
         <div className="text-center my-10">
           <h4 className="mb-4">Success Stories</h4>
           <p>
@@ -111,21 +111,27 @@ export default function About() {
           />
         </div>
       </section>
-      <section className="m-10">
-        <div className="flex flex-col justify-center items-center text-center">
+      <section>
+        <div className="flex flex-col justify-center items-center text-center gap-4">
           <h4>Join us</h4>
           <p>
             Ready for a creative leap? Partner with Etheray and transform your
             digital landscape. Lets innovate together - your future starts here.
           </p>
-          <Input
-            name="email"
-            type="email"
-            isRequired
-            variant="bordered"
-            label="Email"
-            placeholder="Enter your email"
-          />
+          <form
+            action={"/"}
+            className="flex justify-center items-center gap-4 w-full max-w-xl mx-auto"
+          >
+            <Input
+              name="email"
+              type="email"
+              isRequired
+              variant="bordered"
+              label="Email"
+              placeholder="Enter your email"
+            />
+            <Button>Sign Up</Button>
+          </form>
         </div>
       </section>
     </>

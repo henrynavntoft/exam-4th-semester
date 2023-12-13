@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function CompanySection() {
   return (
     <>
-      <section className="">
+      <section>
         <h4 className="text-center mb-8">Company Core</h4>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-12">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
           <article className="flex flex-col-reverse gap-8 md:flex-row ">
             <div className="flex-1 flex flex-col justify-center">
               <h2 className="">Marcin</h2>
@@ -52,10 +52,11 @@ export default function CompanySection() {
             <div className="flex-1">
               <Image
                 alt=""
-                src="https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/henry-hor.jpg"
                 width={1000}
                 height={1000}
                 objectFit="cover"
+                isZoomed
               />
             </div>
           </article>
@@ -106,10 +107,11 @@ export default function CompanySection() {
             <div className="flex-1">
               <Image
                 alt=""
-                src="https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=2499&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="/henry-hor.jpg"
                 width={1000}
                 height={1000}
                 objectFit="cover"
+                isZoomed
               />
             </div>
           </article>

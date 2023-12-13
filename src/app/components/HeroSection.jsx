@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <>
       <section className="relative h-screen flex justify-center items-center">
-        {/* <HeroScene /> */}
+        <HeroScene />
         <div className="z-10 text-center">
           <h1 className="logo">Etheray</h1>
           <p className=" flex justify-center mt-4 mx-4">

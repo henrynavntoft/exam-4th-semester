@@ -57,6 +57,7 @@ export default function Services() {
               alt="Project 1"
               layout="fill"
               objectFit="cover"
+              isZoomed
             />
           </div>
         </article>
@@ -83,6 +84,7 @@ export default function Services() {
               alt="Project 1"
               layout="fill"
               objectFit="cover"
+              isZoomed
             />
           </div>
         </article>
@@ -108,6 +110,7 @@ export default function Services() {
               alt="Project 1"
               layout="fill"
               objectFit="cover"
+              isZoomed
             />
           </div>
         </article>
@@ -133,6 +136,7 @@ export default function Services() {
               alt="Project 1"
               layout="fill"
               objectFit="cover"
+              isZoomed
             />
           </div>
         </article>
