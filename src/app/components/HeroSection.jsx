@@ -15,7 +15,7 @@ export default function HeroSection() {
   return (
     <>
       <section className="relative h-screen flex justify-center items-center">
-        <HeroScene />
+        {/* <HeroScene /> */}
         <div className="z-10 text-center">
           <h1 className="logo">Etheray</h1>
           <p className=" flex justify-center mt-4 mx-4">
@@ -33,7 +33,7 @@ export default function HeroSection() {
 
       <section
         ref={scrollTargetRef}
-        className="h-screen flex flex-col justify-center items-center gap-10 "
+        className="h-screen flex flex-col justify-center items-center mx-auto max-w-2xl gap-10 "
       >
         <div className="">
           <h2 className="">

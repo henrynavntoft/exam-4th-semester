@@ -52,7 +52,7 @@ export default function CompanySection() {
             <div className="flex-1">
               <Image
                 alt=""
-                src="/henry-hor.jpg"
+                src="/marcin-hor.jpg"
                 width={1000}
                 height={1000}
                 objectFit="cover"
