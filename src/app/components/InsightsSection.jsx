@@ -33,12 +33,13 @@ export default function InsightsSection() {
           </div>
 
           <div className="flex flex-1 justify-center items-center">
-            <Image
-              alt=""
-              src="https://images.unsplash.com/photo-1524508762098-fd966ffb6ef9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlcnNvbiUyMGxvb2tpbmclMjBhdCUyMGNvbXB1dGVyfGVufDB8fDB8fHww"
-              layout="fill"
-              objectFit="cover"
-            />
+            <video
+              autoPlay
+              muted
+              loop
+              className="rounded-2xl"
+              src="/video.mp4"
+            ></video>
           </div>
         </div>
         <div className="my-10">
@@ -50,11 +51,7 @@ export default function InsightsSection() {
               href={"/"}
               className="flex flex-col justify-center items-center"
             >
-              <Image
-                alt=""
-                src="https://images.unsplash.com/photo-1680536555364-9dd4a1ab313e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8M2R8ZW58MHx8MHx8fDA%3D"
-                layout="fill"
-              />
+              <Image alt="" src="/Workshop_1.png" layout="fill" />
               <p className="">Creative coding workshop</p>
               <p>by Henry Navntoft</p>
             </Link>
@@ -62,11 +59,7 @@ export default function InsightsSection() {
               href={"/"}
               className="flex flex-col justify-center items-center"
             >
-              <Image
-                alt=""
-                src="https://images.unsplash.com/photo-1680536555364-9dd4a1ab313e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8M2R8ZW58MHx8MHx8fDA%3D"
-                layout="fill"
-              />
+              <Image alt="" src="/Workshop_2.png" layout="fill" />
               <p className="">3D with spline</p>
               <p>by Marcin Grygo</p>
             </Link>
@@ -74,11 +67,7 @@ export default function InsightsSection() {
               href={"/"}
               className="flex flex-col justify-center items-center"
             >
-              <Image
-                alt=""
-                src="https://images.unsplash.com/photo-1680536555364-9dd4a1ab313e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8M2R8ZW58MHx8MHx8fDA%3D"
-                layout="fill"
-              />
+              <Image alt="" src="/Workshop_3.png" layout="fill" />
               <p className="">AI as graphic designer</p>
               <p>by Henry Navntoft & Marcin Grygo</p>
             </Link>

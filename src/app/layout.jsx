@@ -11,13 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="text-foreground bg-background">
-      <Providers>
-        <body>
+      <body>
+        <Providers>
           <Header />
           {children}
           <Footer />
-        </body>
-      </Providers>
+        </Providers>
+      </body>
     </html>
   );
 }

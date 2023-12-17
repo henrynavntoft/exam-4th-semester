@@ -24,7 +24,7 @@ export default function PortfolioSection() {
         <div className="flex-1 grid grid-cols-2 grid-rows-1 gap-4 pt-4">
           <div>
             <Image
-              src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
+              src="/project-ex.png"
               alt="Project 1"
               layout="fill"
               objectFit="cover"

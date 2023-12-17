@@ -18,15 +18,15 @@ export default function HeroScene() {
 
 function Scene({ ...props }) {
   const { nodes, materials } = useSpline(
-    "https://prod.spline.design/gAxm3pT7UimwtwzH/scene.splinecode"
+    "https://prod.spline.design/DL-gTRxHOR1Ww3hy/scene.splinecode"
   );
 
   const ref = useRef();
 
   useFrame(() => {
     if (ref.current) {
-      ref.current.rotation.x += 0;
-      ref.current.rotation.y += 0.01;
+      ref.current.rotation.x += 0.01;
+      ref.current.rotation.y += 0;
     }
   });
 
@@ -34,27 +34,30 @@ function Scene({ ...props }) {
     <>
       <color />
       <group {...props} dispose={null}>
-        <scene name="Scene 1">
-          <mesh
-            ref={ref}
-            name="Path"
-            geometry={nodes.Path.geometry}
-            material={materials["Path Material"]}
-            castShadow
-            receiveShadow
-            position={[1, 1, 1]}
-            scale={[1, 1, 1]}
-          />
+        <scene>
+          <group position={[0, 50, 0]}>
+            <mesh
+              ref={ref}
+              name="Sphere  Working with light"
+              geometry={nodes["Sphere  Working with light"].geometry}
+              material={materials["Sphere  Working with light Material"]}
+              castShadow
+              receiveShadow
+              position={[0, 0, -1000]}
+            />
+          </group>
           <OrthographicCamera
-            name="Camera"
+            name="1"
             makeDefault={true}
-            zoom={0.5}
-            far={100000}
-            near={-100000}
-            up={[0, -1, 0]}
-            position={[1, 1, 1]}
-            rotation={[1, 1, 1]}
-            scale={1}
+            far={10000}
+            near={-50000}
+          />
+          <hemisphereLight
+            name="Default Ambient Light"
+            intensity={10}
+            castShadow
+            color="#FEF7F6"
+            rotation={[200, 100, 200]}
           />
         </scene>
       </group>
