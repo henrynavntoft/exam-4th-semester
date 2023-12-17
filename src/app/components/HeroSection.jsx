@@ -33,7 +33,7 @@ export default function HeroSection() {
 
       <section
         ref={scrollTargetRef}
-        className="h-screen flex flex-col justify-center items-center mx-auto max-w-2xl gap-10 "
+        className="h-screen flex flex-col justify-center items-center mx-auto max-w-4xl gap-10 "
       >
         <div className="">
           <h2 className="">

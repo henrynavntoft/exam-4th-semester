@@ -18,7 +18,7 @@ export default function About() {
   };
   return (
     <>
-      {/* <HeroScene /> */}
+      <HeroScene />
       <section className="relative h-screen flex justify-center items-center">
         <div className="z-10 mx-10 text-center">
           <h4 className="">Story about us</h4>
@@ -36,7 +36,7 @@ export default function About() {
 
       <section
         ref={scrollTargetRef}
-        className="text-center h-screen flex flex-col justify-center"
+        className="text-center h-screen flex flex-col justify-center max-w-4xl mx-auto"
       >
         <h4>Our mission</h4>
         <p>
@@ -60,55 +60,18 @@ export default function About() {
             together.
           </p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
-          <Image
-            src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
-            alt="Project 1"
-            layout="fill"
-            objectFit="cover"
-          />
-          <Image
-            src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
-            alt="Project 1"
-            layout="fill"
-            objectFit="cover"
-          />
-          <Image
-            src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
-            alt="Project 1"
-            layout="fill"
-            objectFit="cover"
-          />
-          <Image
-            src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
-            alt="Project 1"
-            layout="fill"
-            objectFit="cover"
-          />
-          <Image
-            src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
-            alt="Project 1"
-            layout="fill"
-            objectFit="cover"
-          />
-          <Image
-            src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
-            alt="Project 1"
-            layout="fill"
-            objectFit="cover"
-          />
-          <Image
-            src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
-            alt="Project 1"
-            layout="fill"
-            objectFit="cover"
-          />
-          <Image
-            src="https://images.unsplash.com/photo-1608303588026-884930af2559?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfDF8MHx8fDA%3D"
-            alt="Project 1"
-            layout="fill"
-            objectFit="cover"
-          />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 items-center justify-items-center">
+          {[...Array(8)].map((_, index) => (
+            <div key={index} className="w-150 h-auto flex justify-center">
+              <Image
+                src="/Customer.png"
+                alt="Project 1"
+                layout="intrinsic"
+                width={150}
+                objectFit="cover"
+              />
+            </div>
+          ))}
         </div>
       </section>
       <section>

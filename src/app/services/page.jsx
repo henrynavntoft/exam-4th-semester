@@ -51,13 +51,13 @@ export default function Services() {
               interactions for optimal flow.
             </p>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 flex justify-center">
             <Image
               src="ex-service.png"
               alt="Project 1"
               layout="fill"
               objectFit="cover"
-              isZoomed
+              width={400}
             />
           </div>
         </article>
@@ -78,13 +78,13 @@ export default function Services() {
               interactions for optimal flow.
             </p>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 flex justify-center">
             <Image
               src="ex-service.png"
               alt="Project 1"
               layout="fill"
               objectFit="cover"
-              isZoomed
+              width={400}
             />
           </div>
         </article>
@@ -104,13 +104,13 @@ export default function Services() {
               interactions for optimal flow.
             </p>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 flex justify-center">
             <Image
               src="ex-service.png"
               alt="Project 1"
               layout="fill"
               objectFit="cover"
-              isZoomed
+              width={400}
             />
           </div>
         </article>
@@ -130,13 +130,13 @@ export default function Services() {
               interactions for optimal flow.
             </p>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 flex justify-center">
             <Image
               src="ex-service.png"
               alt="Project 1"
               layout="fill"
               objectFit="cover"
-              isZoomed
+              width={400}
             />
           </div>
         </article>

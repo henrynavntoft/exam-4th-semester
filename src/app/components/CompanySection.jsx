@@ -1,4 +1,4 @@
-import { Image } from "@nextui-org/react";
+import { Button, Image } from "@nextui-org/react";
 import Link from "next/link";
 
 export default function CompanySection() {
@@ -115,6 +115,11 @@ export default function CompanySection() {
               />
             </div>
           </article>
+        </div>
+        <div className="flex justify-center mt-10">
+          <Link href={"/about"}>
+            <Button>See more</Button>
+          </Link>
         </div>
       </section>
     </>
