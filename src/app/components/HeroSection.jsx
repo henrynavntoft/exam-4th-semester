@@ -18,9 +18,10 @@ export default function HeroSection() {
         <HeroScene />
         <div className="z-10 text-center">
           <h1 className="logo">Etheray</h1>
-          <p className=" flex justify-center mt-4 mx-4">
-            Bringing a Personal Touch to Your Business - We are Here to Make
-            Your Digital World Easier and More Inspiring.
+          <p className=" flex justify-center mt-4 max-w-xl mx-auto">
+            Bringing a personal touch to your company - We use AI to boost our
+            creativity while bringing new ideas and improved workflows to
+            reality.
           </p>
         </div>
         <p
@@ -36,20 +37,19 @@ export default function HeroSection() {
         className="h-screen flex flex-col justify-center items-center mx-auto max-w-4xl gap-10 "
       >
         <div className="">
-          <h2 className="">
-            Future of experience That Resonate Beyond the Screen
-          </h2>
+          <h2 className="">Develop solutions that improve the experience</h2>
         </div>
 
         <div className="">
           <h5 className="">How we do it</h5>
           <p className="">
-            In the heart of Copenhagen, we merge human ingenuity with AIs
-            precision, transforming bold ideas into digital realities. Our
-            expertise is not just in creating; it is in empowering you with the
-            knowledge to excel in a digital-first future. Join us, and lets
-            shape the digital landscape with clarity, creativity, and a human
-            touch.
+            We are a design studio in the heart of Copenhagen. We are two
+            devoted friends whos mission is merging human creativity with AIs
+            precision. Our size is our strength. Thanks to our size and
+            knowledge we are flexible for many challenges transforming bold
+            ideas into digital realities. Our expertise is not just in creating;
+            it is in empowering you with the knowledge to help your company
+            stand out in the market.
           </p>
         </div>
       </section>

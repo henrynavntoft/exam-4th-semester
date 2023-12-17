@@ -22,7 +22,8 @@ export default function Services() {
         <div className="z-10 mx-10 text-center">
           <h4 className="">Explore our services</h4>
           <h1 className="flex justify-center mt-4 mx-4">
-            Flexible for all your needs
+            Your vision, <br />
+            our innovation
           </h1>
         </div>
         <p
